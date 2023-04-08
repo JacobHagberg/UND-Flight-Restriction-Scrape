@@ -52,13 +52,16 @@ def UpdateLEDStatusJson(LEDStatus):#Function to write data to the json file that
         color = (0,0,1)
     elif LEDStatus == 3:#Both Metar and Restriction issues
         color = (1,0,1)
-    with open(pathToLEDStatusJson,'r') as infile:#open
-        LED = json.load(infile)
+    try:
+        with open(pathToLEDStatusJson,'r') as infile:#open
+            LED = json.load(infile)
 
-    LED[0][0] = color #Modify data
+        LED[0][0] = color #Modify data
 
-    with open(pathToLEDStatusJson,'w') as outfile: #write data
-        json.dump(LED, outfile, indent=4)
+        with open(pathToLEDStatusJson,'w') as outfile: #write data
+            json.dump(LED, outfile, indent=4)
+    except:
+        pass
     return color
 
 startTime = time.time()
