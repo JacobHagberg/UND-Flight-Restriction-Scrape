@@ -1,2 +1,2 @@
 # UND-Flight-Restriction-Scrape
-This code scrapes the Aims website to get UND aviation flight restrictions and then stores it. 
+This python program uses the python request library to get the data from the UND Aims flight restriction website. It also gets the current metar data for the KGFK metar. It then stres that data to a JSON file. 
