@@ -6,11 +6,11 @@ The collection process involved running the website scraper for 3 years. The scr
 
 Conclusions from data collected:
 
-Looking at flight weather by month, the winter months have the worst weather, and late summer and early fall has the best weather. 
+Looking at flight weather by month, the winter months has the worst weather, with late summer and early fall having the best weather. 
 
 ![Alt text](Graphs/FlightWeatherByMonth.png)
 
-An analysis of flight weather by hour reveals that the best time to fly is early or late in the day, and the worst weather typically occurs from Noon to 5pm. 
+An analysis of flight weather by hour reveals that the best time to fly is early or late in the day, with the worst weather typically occurring from Noon to 5pm. 
 
 ![Alt text](Graphs/FlightWeatherByHour.png)
 
